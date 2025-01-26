@@ -1,2 +1,1 @@
-# VPC-Terraform-Automation
-Creating a VPC Using Terraform and Automating with GitHub Actions
+# VPC Creation with Terraform & GitHub Actions Automation

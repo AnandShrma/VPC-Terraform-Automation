@@ -10,7 +10,7 @@ This project demonstrates how to automate the creation and management of Virtual
 
 So In modern cloud infrastructure, automating the provisioning of resources is crucial for efficiency and consistency. This project demonstrates how to leverage Terraform, an open-source infrastructure as code (IaC) tool, in conjunction with GitHub Actions, a CI/CD platform, to automate the creation and management of Virtual Private Clouds (VPCs) on cloud platforms
 
-* Prerequisites * 
+***Prerequisites***
 *Before embarking on this project, ensure you have the following:*
 
 ***Terraform:***  *Installed on your local machine.*
@@ -36,7 +36,7 @@ project-root/
 - ***outputs.tf:*** Specifies the outputs of the Terraform deployment.
 - ***github/workflows/terraform.yml:*** Houses the GitHub Actions workflow configuration.
 
-*** step-by-Step Implementation ***
+***step-by-Step Implementation***
 1. Setting Up Terraform
 Install Terraform:
 Follow the Terraform installation guide to set up Terraform on your local machine.

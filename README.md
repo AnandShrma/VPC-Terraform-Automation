@@ -2,7 +2,7 @@
 
 <p align="center">
   <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub Actions" width="100">
-  <img src="https://d1.awsstatic.com/logos/AWS_logo.svg" alt="Amazon VPC" width="150">
+  <img src="https://iconlogovector.com/uploads/images/2024/09/lg-66d463ec200da-AWS-VPC-Virtual-Private-Cloud.webp" alt="Amazon VPC" width="150">
   <img src="https://www.terraform.io/assets/images/og-image-8b3e4f7d.png" alt="Terraform" width="100">
 </p>
 

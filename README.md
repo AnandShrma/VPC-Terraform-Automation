@@ -192,5 +192,7 @@ cd your-repo
 ***Trigger Automation:***
 *Push changes to trigger GitHub Actions for deployment.*
 
+<img src="https://i.morioh.com/2024/01/27/56f82e68.webp" alt="GitHub Actions" >
+
 ***Conclusion***
 This project demonstrates how to automate the provisioning of cloud infrastructure using Terraform and GitHub Actions. By integrating these tools, you can achieve efficient, consistent, and reliable deployments.

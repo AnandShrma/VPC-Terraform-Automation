@@ -20,3 +20,8 @@ project-root/
 └── .github/
     └── workflows/
         └── terraform.yml
+
+- main.tf: Contains the primary Terraform configuration for the VPC.
+- variables.tf: Defines input variables for the Terraform configuration.
+- outputs.tf: Specifies the outputs of the Terraform deployment.
+- github/workflows/terraform.yml: Houses the GitHub Actions workflow configuration.

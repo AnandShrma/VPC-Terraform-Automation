@@ -14,7 +14,9 @@ So In modern cloud infrastructure, automating the provisioning of resources is c
 *Before embarking on this project, ensure you have the following:*
 
 ***Terraform:*** Installed on your local machine.
+
 ***GitHub Account:*** Access to create repositories and configure actions.
+
 ***Cloud Provider Account:*** Credentials for the cloud service where the VPC will be deployed (e.g., AWS, Azure, GCP).
 
 Project Structure

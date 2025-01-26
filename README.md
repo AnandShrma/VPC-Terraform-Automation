@@ -3,7 +3,7 @@
 <p align="center">
   <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub Actions" width="100">
   <img src="https://iconlogovector.com/uploads/images/2024/09/lg-66d463ec200da-AWS-VPC-Virtual-Private-Cloud.webp" alt="Amazon VPC" width="150">
-  <img src="https://www.terraform.io/assets/images/og-image-8b3e4f7d.png" alt="Terraform" width="100">
+  <img src="https://us.ovhcloud.com/sites/default/files/styles/text_media_horizontal/public/2021-04/Terraform-logo.png" alt="Terraform" width="100">
 </p>
 
 This project demonstrates how to automate the creation and management of Virtual Private Clouds (VPCs) using Terraform, integrated with GitHub Actions.

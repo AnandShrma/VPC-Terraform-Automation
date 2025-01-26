@@ -36,7 +36,7 @@ project-root/
 - ***outputs.tf:*** Specifies the outputs of the Terraform deployment.
 - ***github/workflows/terraform.yml:*** Houses the GitHub Actions workflow configuration.
 
-***step-by-Step Implementation***
+***Step-by-Step Implementation***
 1. Setting Up Terraform
 Install Terraform:
 Follow the Terraform installation guide to set up Terraform on your local machine.

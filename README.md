@@ -1,4 +1,9 @@
 # VPC Creation with Terraform & GitHub Actions Automation 
+
+![GitHub Actions](https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png)  
+![Amazon VPC](https://d1.awsstatic.com/logos/AWS_logo.svg)  
+![Terraform](https://www.terraform.io/assets/images/og-image-8b3e4f7d.png)
+
 **Introduction**
 
 In modern cloud infrastructure, automating the provisioning of resources is crucial for efficiency and consistency. This project demonstrates how to leverage Terraform, an open-source infrastructure as code (IaC) tool, in conjunction with GitHub Actions, a CI/CD platform, to automate the creation and management of Virtual Private Clouds (VPCs) on cloud platforms

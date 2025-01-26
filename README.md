@@ -55,8 +55,8 @@ terraform init
 2. Writing Terraform Configuration Files
 Create the following files in your project directory.
 
-2.1 main.tf
-Define the VPC and related resources.
+ 2.1 main.tf
+    Define the VPC and related resources.
 ```bash
 provider "aws" {
   region = var.region
@@ -78,8 +78,8 @@ resource "aws_subnet" "subnet" {
   }
 }
 ```
-2.2 variables.tf
-Declare input variables.
+ 2.2 variables.tf
+    Declare input variables.
 ```bash
 variable "region" {
   description = "AWS region"
@@ -98,8 +98,8 @@ variable "subnet_cidr" {
   description = "CIDR block for the subnet"
 }
 ```
-2.3 outputs.tf
-Define output variables.
+ 2.3 outputs.tf
+    Define output variables.
 ```bash
 output "vpc_id" {
   description = "The ID of the VPC"
@@ -186,11 +186,11 @@ Clone your project repository:
 git clone https://github.com/your-username/your-repo.git
 cd your-repo
 ```
-Review Workflow:
-Modify and review Terraform configuration as needed.
+***Review Workflow:***
+*Modify and review Terraform configuration as needed.*
 
-Trigger Automation:
-Push changes to trigger GitHub Actions for deployment.
+***Trigger Automation:***
+*Push changes to trigger GitHub Actions for deployment.*
 
-Conclusion
+***Conclusion***
 This project demonstrates how to automate the provisioning of cloud infrastructure using Terraform and GitHub Actions. By integrating these tools, you can achieve efficient, consistent, and reliable deployments.

@@ -34,27 +34,20 @@ Follow the Terraform installation guide to set up Terraform on your local machin
 Create a New Directory:
 Create a directory for your project.
 
-bash
-Copy
-Edit
+```bash
 mkdir terraform-vpc-project
 cd terraform-vpc-project
+```
 Initialize Terraform:
-Run the following command to initialize Terraform:
-
-bash
-Copy
-Edit
+```bash
 terraform init
+```
 2. Writing Terraform Configuration Files
 Create the following files in your project directory.
 
 2.1 main.tf
 Define the VPC and related resources.
-
-hcl
-Copy
-Edit
+```bash
 provider "aws" {
   region = var.region
 }
@@ -74,12 +67,10 @@ resource "aws_subnet" "subnet" {
     Name = "${var.vpc_name}-subnet"
   }
 }
+```
 2.2 variables.tf
 Declare input variables.
-
-hcl
-Copy
-Edit
+```bash
 variable "region" {
   description = "AWS region"
   default     = "us-east-1"
@@ -96,12 +87,10 @@ variable "vpc_cidr" {
 variable "subnet_cidr" {
   description = "CIDR block for the subnet"
 }
+```
 2.3 outputs.tf
 Define output variables.
-
-hcl
-Copy
-Edit
+```bash
 output "vpc_id" {
   description = "The ID of the VPC"
   value       = aws_vpc.main.id
@@ -111,23 +100,19 @@ output "subnet_id" {
   description = "The ID of the Subnet"
   value       = aws_subnet.subnet.id
 }
+```
 3. Configuring GitHub Actions
 Create Workflow Directory:
 Inside your project repository, create a directory for GitHub Actions workflows.
-
-bash
-Copy
-Edit
+```
 mkdir -p .github/workflows
+```
 Add Workflow File:
 Create a file named terraform.yml in the .github/workflows directory.
 
 terraform.yml
 This file automates Terraform operations via GitHub Actions.
-
-yaml
-Copy
-Edit
+```bash
 name: Terraform CI/CD
 
 on:
@@ -159,24 +144,24 @@ jobs:
         env:
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+```
 Important:
 Store AWS credentials in GitHub Secrets:
 
-AWS_ACCESS_KEY_ID
+```AWS_ACCESS_KEY_ID
 AWS_SECRET_ACCESS_KEY
+```
 4. Running the Workflow
 Push Code to GitHub:
 Initialize Git and push your project to a GitHub repository.
-
-bash
-Copy
-Edit
+```bash
 git init
 git add .
 git commit -m "Initial commit"
 git branch -M main
 git remote add origin https://github.com/your-username/your-repo.git
 git push -u origin main
+```
 Trigger Workflow:
 Each push to the main branch will automatically trigger the workflow.
 
@@ -187,11 +172,10 @@ Deployment Process
 Clone Repository:
 Clone your project repository:
 
-bash
-Copy
-Edit
+```bash
 git clone https://github.com/your-username/your-repo.git
 cd your-repo
+```
 Review Workflow:
 Modify and review Terraform configuration as needed.
 

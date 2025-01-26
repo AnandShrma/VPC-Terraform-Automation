@@ -19,8 +19,9 @@ So In modern cloud infrastructure, automating the provisioning of resources is c
 
 ***Cloud Provider Account:***  *Credentials for the cloud service where the VPC will be deployed (e.g., AWS, Azure, GCP).*
 
-Project Structure
-The project is organized as follows:
+***Project Structure***
+
+*The project is organized as follows:*
 ```bash
 project-root/
 ├── main.tf
@@ -30,12 +31,12 @@ project-root/
     └── workflows/
         └── terraform.yml
 ```
-- main.tf: Contains the primary Terraform configuration for the VPC.
-- variables.tf: Defines input variables for the Terraform configuration.
-- outputs.tf: Specifies the outputs of the Terraform deployment.
-- github/workflows/terraform.yml: Houses the GitHub Actions workflow configuration.
+- ***main.tf:*** Contains the primary Terraform configuration for the VPC.
+- ***variables.tf:*** Defines input variables for the Terraform configuration.
+- ***outputs.tf:*** Specifies the outputs of the Terraform deployment.
+- ***github/workflows/terraform.yml:*** Houses the GitHub Actions workflow configuration.
 
-** step-by-Step Implementation **
+*** step-by-Step Implementation ***
 1. Setting Up Terraform
 Install Terraform:
 Follow the Terraform installation guide to set up Terraform on your local machine.

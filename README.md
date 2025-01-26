@@ -3,12 +3,12 @@
 
 In modern cloud infrastructure, automating the provisioning of resources is crucial for efficiency and consistency. This project demonstrates how to leverage Terraform, an open-source infrastructure as code (IaC) tool, in conjunction with GitHub Actions, a CI/CD platform, to automate the creation and management of Virtual Private Clouds (VPCs) on cloud platforms
 
-***Prerequisites***
+Prerequisites
 Before embarking on this project, ensure you have the following:
 
-Terraform: Installed on your local machine.
-GitHub Account: Access to create repositories and configure actions.
-Cloud Provider Account: Credentials for the cloud service where the VPC will be deployed (e.g., AWS, Azure, GCP).
+***Terraform:*** Installed on your local machine.
+***GitHub Account:*** Access to create repositories and configure actions.
+***Cloud Provider Account:*** Credentials for the cloud service where the VPC will be deployed (e.g., AWS, Azure, GCP).
 
 Project Structure
 The project is organized as follows:
